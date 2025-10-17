@@ -1,47 +1,63 @@
 .container{
     display :grid;
     grid-gap: 3px;
-    grid-template-columns: repeat (2 / 1fr);
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template: repeat(2,50px)/repeat(6,1fr) ;
     
+}
+.container-2{
+    display :grid;
+    grid-gap: 3px;
+    grid-template:200px 200px 200px/200px 200px;
+    justify-content:space-evenly;
+    
+}
+.container-3{
+    display :grid;
+    grid-gap: 5px;
+    grid-template:50px 50px 50px/200px 1fr ;
 }
 
 .nav{
     grid-template-columns: 1/-1;
     background:#07ffeb;
 }
-
-.main{
-    background: #84ffff;
-    
-}
 .content1{
-    background: #d8f007;
+    /*background: #225b3b;*/
+    justify-content: center;
+    align-content: center;
     
-
 }
 
 .content2{
-    color:white;
-    background: #020c46;
-    
+    /*background: #73ffb0;*/
+    justify-content: center;
+    align-content: center;
+       
 }
-
 .content3{
-    background: #225b3b;
-    
+    /*background: #225b3b;*/
+    justify-content: center;
+    align-content: center;
 }
-
 .content4 
 {
-    background: #73ffb0;
-   
+    /*background: #73ffb0;*/
+    justify-content: center;
+    align-content: center;
+}
+.content5{
+    /*background: #225b3b;*/
+    justify-content: center;
+    align-content: center;
+    
+}
+.content6 {
+    /*background: #73ffb0;*/
+    justify-content: center;
+    align-content: center;
+      
 }
  
-#content4 
-p {
-    color: red;
-}
 
 #navH1 {
     color: white;
@@ -53,7 +69,7 @@ footer{
     grid-template-columns: 1/ -1;
 }
 
-@media only screen and (max-width: 550px) {
+/*@media only screen and (max-width: 550px) {
 
     .container{
         grid-template-columns: 1fr;
@@ -70,5 +86,5 @@ footer{
         ;
     }
 
-}
+}*/
 
