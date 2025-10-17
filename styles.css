@@ -8,22 +8,21 @@
 .container-2{
     display :grid;
     grid-gap: 3px;
-    grid-template:repeat(8,220px)/220px 220px;
+    grid-template:repeat(4,220px)/220px 220px;
     justify-content: center;
     
 }
 .nav{
     display: grid;
     grid-column: 1/-1;
-    justify-content: center;}
+    justify-content: center;
+    
+    }
+
 .content{
     /*background: #225b3b;*/
     justify-content: center;
-    align-content: center;   
-}
-#navH1 {
-    color: white;
-    text-align: center;
+    align-content: center;       
 }
 footer{
     background: #1de9b6;
