@@ -1,69 +1,32 @@
 .container{
     display :grid;
     grid-gap: 3px;
-    grid-template: repeat(2,50px)/repeat(6,1fr) ;
+    grid-template:100px/repeat(6,1fr) ;
+    justify-items: center;
     
 }
 .container-2{
     display :grid;
     grid-gap: 3px;
-    grid-template:200px 200px 200px/200px 200px;
-    justify-content:space-evenly;
+    grid-template:220px 220px 220px/220px 220px;
+    justify-content: center;
     
 }
-.container-3{
-    display :grid;
-    grid-gap: 5px;
-    grid-template:50px 50px 50px/200px 1fr ;
-}
-
 .nav{
-    grid-template-columns: 1/-1;
-    background:#07ffeb;
+    display: grid;
+    grid-column: 1/-1;
+    justify-content: center;
+    align-content: center;
 }
-.content1{
+.content{
     /*background: #225b3b;*/
     justify-content: center;
-    align-content: center;
-    
+    align-content: center;   
 }
-
-.content2{
-    /*background: #73ffb0;*/
-    justify-content: center;
-    align-content: center;
-       
-}
-.content3{
-    /*background: #225b3b;*/
-    justify-content: center;
-    align-content: center;
-}
-.content4 
-{
-    /*background: #73ffb0;*/
-    justify-content: center;
-    align-content: center;
-}
-.content5{
-    /*background: #225b3b;*/
-    justify-content: center;
-    align-content: center;
-    
-}
-.content6 {
-    /*background: #73ffb0;*/
-    justify-content: center;
-    align-content: center;
-      
-}
- 
-
 #navH1 {
     color: white;
     text-align: center;
 }
-
 footer{
     background: #1de9b6;
     grid-template-columns: 1/ -1;
