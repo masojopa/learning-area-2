@@ -1,54 +1,41 @@
 .container{
     display :grid;
-    height: 100vh;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 0.5fr 1.5fr 1.2fr 1fr;
-    grid-template-areas:
-    "nav nav nav nav"
-    "sidebar main main main"
-    "content1 content2 content3 content4"
-    "footer footer footer footer";
-    grid-gap:0.2rem;
+    grid-gap: 3px;
+    grid-template-columns: repeat (2 / 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
 }
 
 .nav{
-    display: flex;
+    grid-template-columns: 1/-1;
     background:#07ffeb;
-    grid-area: nav;
 }
 
-main{
+.main{
     background: #84ffff;
-    grid-area: main;
+    
 }
-
-#sidebar{
-    background: #4feb07;
-    grid-area: sidebar;
-    color: blue;
-}
-
-#content1{
+.content1{
     background: #d8f007;
-    grid-area: content1;
+    
 
 }
 
-#content2{
+.content2{
     color:white;
     background: #020c46;
-    grid-area: content2;
+    
 }
 
-#content3{
-    background: #73ffb0;
-    grid-area: content3;
+.content3{
+    background: #225b3b;
+    
 }
 
-#content4 
+.content4 
 {
     background: #73ffb0;
-    grid-area: content4;
+   
 }
  
 #content4 
@@ -63,7 +50,7 @@ p {
 
 footer{
     background: #1de9b6;
-    grid-area: footer;
+    grid-template-columns: 1/ -1;
 }
 
 @media only screen and (max-width: 550px) {
