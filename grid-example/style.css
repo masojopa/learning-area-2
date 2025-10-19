@@ -1,29 +1,26 @@
 .main{
     display: grid;
-    grid-template-columns: repeat(3,600px);
-    grid-template-rows: repeat(2,100px);
+    grid-template-columns: repeat(1,600px);
+    grid-template-rows: repeat(4,100px);
     gap: 10px;
 }
 .container{
     display: grid;
     height: 100%;
-    grid-template-columns: repeat(3,100px);
-    grid-template-rows: 50px 50px 50px 50px;
+    grid-template-columns: repeat(6,100px);
+    grid-template-rows: repeat(1,50px);
+    justify-content: center;
+    align-content: center;
     border: 2px solid black;
-    grid-template-areas: 
-    "cccccc"
-    "dddddd"
-    ;
-   
+    background-color: rgb(163, 163, 236);
 }
 .container-2{
     display: grid;
+    height: 100%;
     grid-template-columns: repeat(6,100px);
-    grid-template-rows: repeat(3,100px);
+    grid-template-rows: repeat(4,50px);
     border: 2px solid black;
-    justify-items: center;
-    align-items: center;
-   
+    background-color: rgb(112, 112, 160);
 }
 
 
