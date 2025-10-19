@@ -1,8 +1,61 @@
-#1 {
+#i1 {
+    background-color: rgb(71, 152, 21);
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    text-align: center;
+    color: rgb(247, 242, 242);
+    justify-content: center;
+    align-content: center;
+    }
+
+#i2 {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    text-align: center;
+    color: rgb(253, 252, 252);
+    justify-content: center;
+    align-content: center;
+}
+#i3 {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    text-align: center;
+    color: rgb(253, 251, 251);
+    justify-content: center;
+    align-content: center;
+}
+#i4 {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    text-align: center;
+    color: rgb(255, 254, 254);
+    justify-content: center;
+    align-content: center;
+}
+#i5 {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    text-align: center;
+    color: rgb(253, 252, 252);
+    justify-content: center;
+    align-content: center;
+}
+#i6 {
     background-color: blue;
     width: 50px;
     height: 50px;
     border: 2px solid black;
     text-align: center;
     color: brown;
+    justify-content: center;
+    align-content: center;
 }

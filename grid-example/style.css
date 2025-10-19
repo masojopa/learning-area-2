@@ -1,6 +1,31 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,600px);
+    grid-template-rows: repeat(2,100px);
+    gap: 10px;
+}
 .container{
     display: grid;
-    grid-template-columns: 200px auto;
-    grid-template-rows: 100px 100px 200px;
+    height: 100%;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: 50px 50px 50px 50px;
+    border: 2px solid black;
+    grid-template-areas: 
+    "cccccc"
+    "dddddd"
+    ;
    
 }
+.container-2{
+    display: grid;
+    grid-template-columns: repeat(6,100px);
+    grid-template-rows: repeat(3,100px);
+    border: 2px solid black;
+    justify-items: center;
+    align-items: center;
+   
+}
+
+
+
+
