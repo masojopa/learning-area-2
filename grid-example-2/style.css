@@ -2,26 +2,52 @@
     display: grid;
     grid-template-columns:1fr;
     grid-template-rows: 1fr;
+         img {
+             height: 100%;
+             width: 100%;
+             object-fit: contain; 
+             }
 }
-.header img {
-   height: 100%;
-   width: 100%;
-   object-fit: contain; 
+.nav{
+    display: grid;
+    grid-template-columns:3fr;
+    height: 60px;
+    background-color: blue;
+    gap: 5px;
 }
-.container{
+.main{
     display: grid;
     grid-template-columns:1fr;
-    grid-template-rows: repeat(6,150px);
-    justify-items:center ;
+    grid-template-rows: repeat(4,150px);
+    align-items: center;
+    justify-items: center;
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain; 
+            }
+        div {
+            width: 500px;
+            height: 120px;
+        }
 }
-.container img {
-   height: 100%;
-   width: 100%;
-   object-fit: contain; 
+.footer{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr;
+    height: 60px;
+    background-color: blue;
 }
 
-/*Empiezo con los Items*/
 
+/*Empieza main*/
+
+.item1{
+    display: flex;
+    grid-row: 1 ;
+    width: 500px;
+    height: 120px;
+}
 .item2{
     display: flex;
     grid-row: 2 ;
@@ -33,10 +59,6 @@
 .item4{
     display: flex;
     grid-row: 4 ;
-}
-.item5{
-    display: flex;
-    grid-row: 5 ;
 }
 
 
