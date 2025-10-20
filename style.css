@@ -8,7 +8,8 @@
             }
 }
 .nav{
-    display: flex;
+    display: grid;
+    grid-template-columns:1f;
     grid-row: 1fr ;
     height: 60px;
     background-color: blue;
@@ -28,7 +29,8 @@
             }
 }
 .footer{
-    display: flex;
+    display: grid;
+    grid-template-columns:1f;
     grid-row: 1fr ;
     height: 60px;
     background-color: blue;
