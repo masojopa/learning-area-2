@@ -20,7 +20,7 @@
     grid-template-rows: repeat(4,200px);
     align-items: center;
     justify-items: center;
-    gap: px;
+    gap: 5px;
         img {
             height: 100%;
             width: 100%;
