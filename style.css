@@ -9,7 +9,7 @@
 }
 .nav{
     display: flex;
-    grid-row: 1 ;
+    grid-row: 1fr ;
     height: 60px;
     background-color: blue;
     gap: 5px;
@@ -29,7 +29,7 @@
 }
 .footer{
     display: flex;
-    grid-row: 1 ;
+    grid-row: 1fr ;
     height: 60px;
     background-color: blue;
 }
